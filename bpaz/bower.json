@@ -1,0 +1,22 @@
+{
+  "name": "bpaz",
+  "description": "Barrios de Paz WP Theme",
+  "main": "",
+  "authors": [
+    "Guillermo Bernal <gbernal096@hotmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "http://www.barriosdepaz.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
+  }
+}
