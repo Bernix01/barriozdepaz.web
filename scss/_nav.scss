@@ -1,42 +1,44 @@
-.access {
-	margin: 0;
-	div {
-		float: left;
-		overflow: hidden;
-		position: relative;
-		width: 100%;
-	}
-	ul {
-		clear: left;
-		padding-left: 0;
-		margin: 0 !important;
-		list-style: none;
-		li {
-			position: relative;
-			display: inline-block;
-			vertical-align: middle;
-			a {
-				display: block;
-				padding: 3px 0 3px 10px;
-				margin: 2px 0;
-				text-decoration: none;
-				cursor: pointer;
-				// uncomment if you want dividers
-				// &:after {
-				// 	content: '/';
-				// 	color: $text;
-				// }
-				&:hover,
-				&:focus {
-					color: $hover;
-				}
-			}
-			// &:last-of-type a:after {
-			// 	content: none;
-			// }
-		}
-		
-		
-	}
-	
+.navbar-default {
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 0;
+  border-top: 5px solid #ffc800;
+  .navbar-toggle {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 5px 5px 0px 1em;
+  }
+  .navbar-nav {
+    > li {
+      > a {
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: normal;
+        color: #fff;
+        padding: 22px 20px;
+        &:focus,
+        &:hover {
+          color: #fff;
+          background-color: #ffc800;
+        }
+      }
+    }
+    > .active {
+      > a {
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: normal;
+        color: #fff;
+        background-color: #ffc800;
+        &:focus,
+        &:hover {
+          color: #fff;
+          background-color: #ffc800;
+        }
+      }
+    }
+  }
 }

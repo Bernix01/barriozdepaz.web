@@ -11,7 +11,7 @@
 	</div><!-- #main -->
 
 </div><!-- #page -->
-<footer id="footer" role="contentinfo" class="row">
+<footer id="footer" role="contentinfo">
 	<div id="copyright" class="container">
 		&copy; <?php echo date( 'Y' ); echo '&nbsp;'; echo bloginfo( 'name' ); ?><br>
 		Site by <a href="" target="_blank" rel="nofollow">Melanie Rosenthal</a> &amp;

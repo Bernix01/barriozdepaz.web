@@ -1,19 +1,20 @@
 /* BASE VARIABLES
  *******************/
-
+ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,700);
+ @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 /* Sizes */
-$max-width: 1800px;
 $footerheight: 50px;
 
 /* Colors */
 $text: #555;
-$links: blue;
-$hover: red;
+$links: #ffc800;
+$hover: #ffc800;
 
 $bg: #FFF;
 
 /* Fonts */
-$main: sans-serif;
+$main: 'Dosis', sans-serif;
 
 /* Borders */
 $border: 1px solid #000;

@@ -9,5 +9,9 @@
     "gulp-autoprefixer": "*",
     "gulp-minify-css": "*",
     "gulp-livereload": "*"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^2.4.0",
+    "gulp-newer": "^1.1.0"
   }
 }
