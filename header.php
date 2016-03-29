@@ -60,7 +60,7 @@
                               'theme_location' => 'primary',
                               'depth' => 2,
                               'container' => 'div',
-                              'container_class' => 'collapse navbar-collapse pull-right',
+                              'container_class' => 'collapse navbar-collapse navbar-right',
                               'container_id' => 'menu',
                               'menu_class' => 'nav navbar-nav',
                               'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
