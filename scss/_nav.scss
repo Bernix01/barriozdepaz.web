@@ -5,6 +5,15 @@
   border-top: 5px solid #ffc800;
   .navbar-toggle {
     border: none;
+    &:hover, &:focus{
+      background: none;
+      .icon-bar{
+        background-color: #fefefe;
+      }
+    }
+  }
+  .navbar-collapse{
+    border: none;
   }
   .navbar-brand {
     padding: 5px 5px 0px 1em;
